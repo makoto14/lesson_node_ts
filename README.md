@@ -14,11 +14,14 @@ npm install -D npm-run-all
 
 # 実行方法
 ```
+// tsファイルのコンパイル
+tsc lesson_file/1-1/test_1.ts
+
 // jsファイルの実行
-node test/app.js
+node lesson_file/1-1/test_1.js
 
 // tsファイルをコンパイルせずに実行
-npx ts-node lesson_file/1-1/1.ts
+npx ts-node lesson_file/1-1/test_1.ts
 ```
 
 # 参考サイト
