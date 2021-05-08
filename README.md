@@ -1,15 +1,7 @@
 
 # 環境構築方法
 ```
-npm init
-npm install express
-npm install -D typescript
-npm install -D @types/node
-npm install -D @types/express
-npm install -D ts-node
-npm install -D ts-node-dev
-npm install -D rimraf
-npm install -D npm-run-all
+npm install
 ```
 
 # 実行方法
