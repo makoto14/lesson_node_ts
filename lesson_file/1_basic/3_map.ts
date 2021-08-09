@@ -11,7 +11,7 @@ export class Test3 {
     }
 
     public hoge2() {
-        let map = new Map<String, String>();
+        let map: Map<String, String> = new Map<String, String>();
         map.set("taro", this.hoge);
         map.set("makoto", String(this.hogeNum));
         return map;

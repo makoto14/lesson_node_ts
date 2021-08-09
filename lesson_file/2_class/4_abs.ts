@@ -1,6 +1,6 @@
-class Person {
-    name: string;
-    age: number;
+export class Person {
+    private name: string;
+    private age: number;
 
     constructor(name: string, age: number) {
         this.name = name;
@@ -30,11 +30,10 @@ abstract class absMain {
 
 }
 
-class PersonCreater extends absMain {
+export class PersonCreater extends absMain {
 
     public createPerson(name: string, age: number): Person {
-        let person: Person = new Person(name, age);
-        return person;
+        return new Person(name, age);;
     }
 
 }

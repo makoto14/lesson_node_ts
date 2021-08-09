@@ -14,6 +14,9 @@ node lesson_file/1-1/test_1.js
 
 // tsファイルをコンパイルせずに実行
 npx ts-node lesson_file/1-1/test_1.ts
+
+// Testの実行
+npm t
 ```
 
 # 参考サイト
